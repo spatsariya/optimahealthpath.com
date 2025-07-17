@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Contact OptimaHealthPath - Get in Touch | Leading Teleradiology Provider";
-$pageDescription = "Contact OptimaHealthPath for expert teleradiology services. Schedule a consultation or request more information about our comprehensive radiology solutions.";
+$pageTitle = "Contact OptimaHealthPath - Get Expert Teleradiology Services | US, Canada & India";
+$pageDescription = "Contact OptimaHealthPath for expert teleradiology services across North America and Asia. Schedule consultation, request demo, or learn about our 24/7 radiology solutions for US, Canada, and India healthcare providers.";
 include 'includes/header.php';
 ?>
 

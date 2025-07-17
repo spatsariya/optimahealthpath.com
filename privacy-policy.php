@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Privacy Policy | OptimaHealthPath - Teleradiology Services";
-$pageDescription = "Read OptimaHealthPath's privacy policy to understand how we collect, use, and protect your personal and medical information in accordance with HIPAA regulations.";
+$pageTitle = "Privacy Policy | OptimaHealthPath - HIPAA Compliant Teleradiology US, Canada & India";
+$pageDescription = "OptimaHealthPath privacy policy for teleradiology services across North America and Asia. HIPAA compliance, data protection, and medical information security for healthcare providers in US, Canada, and India.";
 include 'includes/header.php';
 ?>
 

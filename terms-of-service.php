@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Terms of Service | OptimaHealthPath - Teleradiology Services";
-$pageDescription = "Read OptimaHealthPath's terms of service to understand the terms and conditions governing the use of our teleradiology services and website.";
+$pageTitle = "Terms of Service | OptimaHealthPath - Teleradiology Terms US, Canada & India";
+$pageDescription = "OptimaHealthPath terms of service for teleradiology services across North America and Asia. Legal terms, service agreements, and conditions for healthcare providers in US, Canada, and India using our diagnostic imaging solutions.";
 include 'includes/header.php';
 ?>
 

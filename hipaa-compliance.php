@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "HIPAA Compliance | OptimaHealthPath - Secure Teleradiology Services";
-$pageDescription = "Learn about OptimaHealthPath's commitment to HIPAA compliance and how we protect patient health information in our teleradiology services.";
+$pageTitle = "HIPAA Compliance | OptimaHealthPath - Secure Teleradiology US, Canada & India";
+$pageDescription = "OptimaHealthPath HIPAA compliance for teleradiology services across North America and Asia. Secure patient data protection, healthcare privacy, and regulatory compliance for medical imaging services in US, Canada, and India.";
 include 'includes/header.php';
 ?>
 

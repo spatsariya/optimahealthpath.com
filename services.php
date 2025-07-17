@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Teleradiology Services | OptimaHealthPath - Comprehensive Diagnostic Solutions";
-$pageDescription = "Discover our comprehensive teleradiology services including 24/7 emergency coverage, subspecialty expertise, and advanced PACS integration for healthcare facilities.";
+$pageTitle = "Teleradiology Services | OptimaHealthPath - US, Canada & India Diagnostic Solutions";
+$pageDescription = "Comprehensive teleradiology services across North America and Asia. 24/7 emergency coverage, subspecialty expertise, PACS integration, and AI-assisted diagnostics for healthcare facilities in US, Canada, and India.";
 include 'includes/header.php';
 ?>
 

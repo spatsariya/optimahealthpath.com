@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "For Healthcare Facilities | OptimaHealthPath - Teleradiology Partner";
-$pageDescription = "Partner with OptimaHealthPath for comprehensive teleradiology solutions. Learn how we can help optimize your radiology department's efficiency and patient care.";
+$pageTitle = "For Healthcare Facilities | OptimaHealthPath - Teleradiology Partner US, Canada & India";
+$pageDescription = "Partner with OptimaHealthPath for comprehensive teleradiology solutions across North America and Asia. 24/7 PACS integration, AI-assisted diagnostics, and expert radiologists serving US, Canada, and India healthcare facilities.";
 include 'includes/header.php';
 ?>
 

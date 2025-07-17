@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "About OptimaHealthPath - Leading Teleradiology Provider | Our Story";
-$pageDescription = "Learn about OptimaHealthPath's journey in revolutionizing teleradiology services across North America. Discover our mission, values, and commitment to excellence in healthcare.";
+$pageTitle = "About OptimaHealthPath - Leading Teleradiology Provider North America & Asia | Our Story";
+$pageDescription = "Learn about OptimaHealthPath's journey in revolutionizing teleradiology services across US, Canada & India. Board-certified radiologists, 24/7 coverage, and AI-powered diagnostics driving healthcare excellence in North America and Asia.";
 include 'includes/header.php';
 ?>
 
