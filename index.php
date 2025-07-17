@@ -99,14 +99,15 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
                     </div>
                 </div>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#home" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
-                    <a href="#services" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Services</a>
-                    <a href="#about" class="text-primary hover:text-accent transition-colors duration-300 font-medium">About</a>
-                    <a href="#contact" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Contact</a>
+                    <a href="/" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
+                    <a href="/services.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Services</a>
+                    <a href="/for-facilities.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">For Facilities</a>
+                    <a href="/about-us.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">About</a>
+                    <a href="/contact.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Contact</a>
                 </div>
-                <button class="bg-accent text-white px-6 py-2 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20">
+                <a href="/contact.php" class="bg-accent text-white px-6 py-2 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20">
                     Get Started
-                </button>
+                </a>
             </div>
         </nav>
     </header>
@@ -128,7 +129,7 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
                         for healthcare providers across US & Canada.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-6 animate-slide-up delay-300">
-                        <a href="#contact" 
+                        <a href="/contact.php" 
                             class="group bg-accent text-white px-8 py-4 rounded-lg hover:bg-accent/90 
                             transition-all duration-300 font-medium flex items-center justify-center">
                             Schedule a Demo
@@ -139,11 +140,11 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
                                     d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </a>
-                        <a href="#features" 
+                        <a href="/services.php" 
                             class="bg-white/80 backdrop-blur-sm text-primary border border-gray-200 
                             px-8 py-4 rounded-lg hover:bg-white hover:border-accent 
                             transition-all duration-300 font-medium flex items-center justify-center group">
-                            Explore Features
+                            Explore Services
                             <svg xmlns="http://www.w3.org/2000/svg" 
                                 class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" 
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -359,10 +360,13 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
                 <div>
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Quick Links</h3>
                     <ul class="space-y-3">
-                        <li><a href="#home" class="text-white/70 hover:text-accent transition-colors duration-300">Home</a></li>
-                        <li><a href="#services" class="text-white/70 hover:text-accent transition-colors duration-300">Services</a></li>
-                        <li><a href="#about" class="text-white/70 hover:text-accent transition-colors duration-300">About</a></li>
-                        <li><a href="#contact" class="text-white/70 hover:text-accent transition-colors duration-300">Contact</a></li>
+                        <li><a href="/" class="text-white/70 hover:text-accent transition-colors duration-300">Home</a></li>
+                        <li><a href="/services.php" class="text-white/70 hover:text-accent transition-colors duration-300">Services</a></li>
+                        <li><a href="/for-facilities.php" class="text-white/70 hover:text-accent transition-colors duration-300">For Facilities</a></li>
+                        <li><a href="/about-us.php" class="text-white/70 hover:text-accent transition-colors duration-300">About</a></li>
+                        <li><a href="/contact.php" class="text-white/70 hover:text-accent transition-colors duration-300">Contact</a></li>
+                        <li><a href="/privacy-policy.php" class="text-white/70 hover:text-accent transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service.php" class="text-white/70 hover:text-accent transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
