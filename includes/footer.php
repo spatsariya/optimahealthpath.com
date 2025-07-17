@@ -6,7 +6,7 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Optima Health Path</h3>
                     <p class="text-white/70 leading-relaxed">
-                        Leading teleradiology services provider in North America, delivering excellence in diagnostic care.
+                        Leading teleradiology services provider across North America and Asia, delivering excellence in diagnostic care to US, Canada, and India.
                     </p>
                 </div>
                 <div>
@@ -70,6 +70,22 @@
     
     <!-- Scripts -->
     <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            
+            if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+        
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {

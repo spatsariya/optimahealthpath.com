@@ -253,6 +253,8 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- Desktop Navigation -->
                 <div class="hidden md:flex space-x-8">
                     <a href="/" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
                     <a href="/services.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Services</a>
@@ -260,9 +262,36 @@
                     <a href="/about-us.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">About</a>
                     <a href="/contact.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Contact</a>
                 </div>
-                <a href="/contact.php" class="bg-accent text-white px-6 py-2 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20">
-                    Get Started
-                </a>
+                
+                <!-- Desktop CTA Button -->
+                <div class="hidden md:block">
+                    <a href="/contact.php" class="bg-accent text-white px-6 py-2 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden flex items-center justify-center p-2 rounded-lg text-primary hover:text-accent transition-colors duration-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
             </div>
+            
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="/" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Home</a>
+                    <a href="/services.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Services</a>
+                    <a href="/for-facilities.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">For Facilities</a>
+                    <a href="/about-us.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">About</a>
+                    <a href="/contact.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Contact</a>
+                    <a href="/contact.php" class="bg-accent text-white px-6 py-3 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20 text-center mt-4">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
         </nav>
     </header>
