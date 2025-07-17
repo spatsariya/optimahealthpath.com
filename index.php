@@ -83,7 +83,20 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
         <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border-b border-gray-200">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <img src="assets/images/logo.png" alt="Optima Health Path Logo" class="h-16 md:h-20" draggable="false">
+                    <div class="flex items-center">
+                        <!-- Logo with fallback text -->
+                        <img 
+                            src="/assets/images/logo.png" 
+                            alt="Optima Health Path Logo" 
+                            class="h-16 md:h-20" 
+                            draggable="false"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+                        >
+                        <div class="hidden">
+                            <span class="text-accent text-2xl font-bold">Optima</span>
+                            <span class="text-primary text-2xl font-bold">Health Path</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
