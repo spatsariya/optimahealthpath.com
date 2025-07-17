@@ -79,8 +79,8 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
 </head>
 <body class="bg-gray-50">
     <!-- Header -->
-    <header class="fixed w-full z-50" style="top: 32px;">
-        <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border border-gray-200 rounded-3xl mx-6">
+    <header class="fixed w-full z-50 px-8" style="top: 32px;">
+        <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border border-gray-200 rounded-3xl">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
                     <div class="flex items-center">
