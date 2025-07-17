@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "For Healthcare Facilities | OptimaHealthPath - Teleradiology Partner US, Canada & India";
-$pageDescription = "Partner with OptimaHealthPath for comprehensive teleradiology solutions across North America and Asia. 24/7 PACS integration, AI-assisted diagnostics, and expert radiologists serving US, Canada, and India healthcare facilities.";
+$pageTitle = "For Healthcare Facilities - OptimaHealthPath Teleradiology Solutions | Long-Term Partnerships";
+$pageDescription = "Healthcare facilities trust OptimaHealthPath for radiologist-owned teleradiology services. 24/7 emergency coverage, 15-minute TAT, board-certified radiologists, and flexible coverage options for hospitals and imaging centers.";
 include 'includes/header.php';
 ?>
 
@@ -8,104 +8,186 @@ include 'includes/header.php';
 <section class="pt-32 pb-16 relative bg-gradient-to-br from-blue-50 to-gray-50">
     <div class="container mx-auto px-6">
         <h1 class="text-4xl md:text-5xl font-bold text-primary mb-8 tracking-tight">For Healthcare Facilities</h1>
-        <p class="text-xl text-secondary mb-8 max-w-3xl">Partner with us to enhance your radiology services and improve patient care through our advanced teleradiology solutions.</p>
+        <p class="text-xl text-secondary mb-8 max-w-3xl">
+            Comprehensive teleradiology solutions designed to enhance patient care and streamline operations for hospitals, 
+            imaging centers, and healthcare facilities across North America and Asia.
+        </p>
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
+            <div class="bg-white/80 backdrop-blur-sm p-6 rounded-lg">
+                <h3 class="text-lg font-semibold text-primary mb-2">24/7 Emergency Coverage</h3>
+                <p class="text-secondary text-sm">Critical reads available 24/7 with 15-minute turnaround times</p>
+            </div>
+            <div class="bg-white/80 backdrop-blur-sm p-6 rounded-lg">
+                <h3 class="text-lg font-semibold text-primary mb-2">Flexible Coverage Options</h3>
+                <p class="text-secondary text-sm">Tailored solutions from after-hours to 365-day coverage</p>
+            </div>
+            <div class="bg-white/80 backdrop-blur-sm p-6 rounded-lg">
+                <h3 class="text-lg font-semibold text-primary mb-2">Board-Certified Radiologists</h3>
+                <p class="text-secondary text-sm">Experienced radiologists with subspecialty expertise</p>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- Benefits Section -->
-<section class="py-16">
+<!-- Partnership Approach -->
+<section class="py-20">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary mb-12 text-center">Why Partner With Us?</h2>
+        <div class="max-w-4xl mx-auto text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8">Your Trusted Teleradiology Partner</h2>
+            <p class="text-xl text-secondary mb-8 leading-relaxed">
+                We firmly believe in hospital radiology groups and when working with a group, we are only here to 
+                assist and serve the group. Our radiologist-owned approach means we understand your unique challenges 
+                and work as an extension of your team.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold text-primary mb-6">Why Facilities Choose OptimaHealthPath</h3>
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="w-8 h-8 bg-accent/10 rounded-full flex items-center justify-center mr-4 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-primary mb-2">Guaranteed Coverage</h4>
+                            <p class="text-secondary">We provide coverage with flexibility on an as-needed basis up to 365 days/year at all hours. We provide peace of mind by offering a guarantee for requested coverage.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="w-8 h-8 bg-accent/10 rounded-full flex items-center justify-center mr-4 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-primary mb-2">Cost Savings</h4>
+                            <p class="text-secondary">Increased cost savings through efficient operations and reduced overhead expenses for your facility.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="w-8 h-8 bg-accent/10 rounded-full flex items-center justify-center mr-4 mt-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-primary mb-2">Radiologist-Owned Operation</h4>
+                            <p class="text-secondary">Unlike other providers, we are owned and operated by radiologists who understand the unique challenges of healthcare facilities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-bold text-primary mb-6">Our Commitment to Excellence</h3>
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <p class="text-secondary mb-4 leading-relaxed">
+                        "We build cohesive relationships with ER departments, doctors, technicians, and hospital 
+                        administrations that act as the cornerstone for the values of OptimaHealthPath."
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">15 min</div>
+                            <div class="text-sm text-secondary">Emergency TAT</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">24/7</div>
+                            <div class="text-sm text-secondary">Coverage Available</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">365</div>
+                            <div class="text-sm text-secondary">Days/Year</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">100%</div>
+                            <div class="text-sm text-secondary">Board-Certified</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Coverage Options -->
+<section class="py-20 bg-gradient-to-br from-blue-50/50 to-white/50">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">Comprehensive Coverage Solutions</h2>
         <div class="grid md:grid-cols-3 gap-8">
-            <!-- Cost Efficiency -->
             <div class="bg-white p-8 rounded-2xl shadow-lg">
-                <div class="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-xl font-semibold text-primary mb-4">Cost Efficiency</h3>
-                <p class="text-secondary">Reduce operational costs while maintaining high-quality radiology services.</p>
-                <ul class="mt-4 space-y-2">
+                <h3 class="text-xl font-semibold text-primary mb-4">Emergency Coverage</h3>
+                <p class="text-secondary mb-4">24/7 emergency radiology coverage with guaranteed 15-minute turnaround times for critical reads.</p>
+                <ul class="space-y-2">
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        No equipment investment
+                        CT, MRI, X-ray, Ultrasound
                     </li>
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        Pay-per-study model
+                        Trauma & Emergency reads
                     </li>
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        Reduced staffing costs
+                        Subspecialty consultations
                     </li>
                 </ul>
             </div>
 
-            <!-- Quality Assurance -->
             <div class="bg-white p-8 rounded-2xl shadow-lg">
-                <div class="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                    </svg>
-                </div>
-                <h3 class="text-xl font-semibold text-primary mb-4">Quality Assurance</h3>
-                <p class="text-secondary">Expert radiologists and rigorous quality control processes.</p>
-                <ul class="mt-4 space-y-2">
+                <h3 class="text-xl font-semibold text-primary mb-4">After-Hours Coverage</h3>
+                <p class="text-secondary mb-4">Comprehensive after-hours coverage when your radiology team is unavailable.</p>
+                <ul class="space-y-2">
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        Board-certified radiologists
+                        Evenings & weekends
                     </li>
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        Peer review process
+                        Holiday coverage
                     </li>
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        Regular quality audits
+                        Flexible scheduling
                     </li>
                 </ul>
             </div>
 
-            <!-- Seamless Integration -->
             <div class="bg-white p-8 rounded-2xl shadow-lg">
-                <div class="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                </div>
-                <h3 class="text-xl font-semibold text-primary mb-4">Seamless Integration</h3>
-                <p class="text-secondary">Easy integration with your existing systems and workflow.</p>
-                <ul class="mt-4 space-y-2">
+                <h3 class="text-xl font-semibold text-primary mb-4">Vacation Coverage</h3>
+                <p class="text-secondary mb-4">Reliable coverage during vacations and planned absences of your radiology staff.</p>
+                <ul class="space-y-2">
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        PACS compatibility
+                        Seamless transitions
                     </li>
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        Quick setup process
+                        Maintained quality standards
                     </li>
                     <li class="flex items-center text-secondary">
-                        <svg class="w-5 h-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-accent mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        24/7 technical support
+                        Advance planning support
                     </li>
                 </ul>
             </div>
@@ -113,51 +195,63 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Integration Process -->
-<section class="py-16 bg-gray-50">
+<!-- Technology & Integration -->
+<section class="py-20">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary mb-12 text-center">Integration Process</h2>
-        <div class="max-w-4xl mx-auto">
-            <div class="relative">
-                <!-- Timeline Line -->
-                <div class="absolute h-full w-0.5 bg-accent left-6 top-0"></div>
-                
-                <!-- Timeline Items -->
-                <div class="space-y-12">
-                    <!-- Step 1 -->
-                    <div class="relative pl-16">
-                        <div class="absolute left-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold">1</div>
-                        <div class="bg-white p-6 rounded-xl">
-                            <h3 class="text-xl font-semibold text-primary mb-2">Initial Consultation</h3>
-                            <p class="text-secondary">We discuss your specific needs and requirements to create a customized solution.</p>
-                        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">Seamless Technology Integration</h2>
+        <div class="grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold text-primary mb-6">PACS Integration</h3>
+                <p class="text-secondary mb-6 leading-relaxed">
+                    Our robust IT support team ensures seamless integration with your existing PACS system, 
+                    maintaining workflow efficiency and data security.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-secondary">Compatible with all major PACS systems</span>
                     </div>
-                    
-                    <!-- Step 2 -->
-                    <div class="relative pl-16">
-                        <div class="absolute left-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold">2</div>
-                        <div class="bg-white p-6 rounded-xl">
-                            <h3 class="text-xl font-semibold text-primary mb-2">Technical Setup</h3>
-                            <p class="text-secondary">Our team handles the integration with your existing PACS system and workflow.</p>
-                        </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-secondary">HL7 connectivity for seamless data exchange</span>
                     </div>
-                    
-                    <!-- Step 3 -->
-                    <div class="relative pl-16">
-                        <div class="absolute left-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold">3</div>
-                        <div class="bg-white p-6 rounded-xl">
-                            <h3 class="text-xl font-semibold text-primary mb-2">Testing Phase</h3>
-                            <p class="text-secondary">Comprehensive testing to ensure seamless operation and data transmission.</p>
-                        </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-secondary">Voice recognition and structured reporting</span>
                     </div>
-                    
-                    <!-- Step 4 -->
-                    <div class="relative pl-16">
-                        <div class="absolute left-0 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold">4</div>
-                        <div class="bg-white p-6 rounded-xl">
-                            <h3 class="text-xl font-semibold text-primary mb-2">Go Live</h3>
-                            <p class="text-secondary">Full implementation with ongoing support and monitoring.</p>
-                        </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-bold text-primary mb-6">Quality Assurance</h3>
+                <p class="text-secondary mb-6 leading-relaxed">
+                    Our commitment to quality includes comprehensive peer review processes and continuous 
+                    quality improvement initiatives.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-secondary">Comprehensive peer review program</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-secondary">Continuous quality improvement</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-secondary">Regular quality metrics reporting</span>
                     </div>
                 </div>
             </div>
@@ -165,23 +259,55 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Call to Action -->
-<section class="py-16">
+<!-- Community Focus -->
+<section class="py-20 bg-gradient-to-br from-blue-50/50 to-white/50">
     <div class="container mx-auto px-6">
-        <div class="bg-primary rounded-2xl p-12 relative overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-90"></div>
-            <div class="relative z-10">
-                <h2 class="text-3xl font-bold text-white mb-6 text-center">Ready to Transform Your Radiology Services?</h2>
-                <p class="text-white/90 text-center mb-8 text-lg">Contact us today to schedule a consultation and learn how we can help optimize your facility's efficiency.</p>
-                <div class="flex justify-center">
-                    <a href="/contact.php" class="bg-white text-primary px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors duration-300 font-medium inline-flex items-center group">
-                        Schedule a Consultation
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                        </svg>
-                    </a>
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8">Supporting Your Community</h2>
+            <p class="text-xl text-secondary mb-8 leading-relaxed">
+                We understand that your community expects the best healthcare possible. The OptimaHealthPath solution 
+                provides prompt, decisive radiology support, allowing you to utilize the best tools at your disposal.
+            </p>
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-semibold text-primary mb-6">Nationwide Excellence</h3>
+                <p class="text-secondary mb-6 leading-relaxed">
+                    Now servicing hospitals and clinics across multiple regions in North America and Asia, we are 
+                    proud to be part of your overall healthcare plan and community well-being.
+                </p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-accent mb-2">100+</div>
+                        <div class="text-secondary">Healthcare Facilities</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-accent mb-2">24/7</div>
+                        <div class="text-secondary">Emergency Coverage</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-accent mb-2">15min</div>
+                        <div class="text-secondary">Critical Read TAT</div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8">Ready to Partner with OptimaHealthPath?</h2>
+        <p class="text-xl text-secondary mb-8 max-w-2xl mx-auto">
+            Join the growing network of healthcare facilities that trust OptimaHealthPath for their teleradiology needs. 
+            Let's discuss how we can support your facility's success.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="contact.php" class="bg-accent text-white px-8 py-3 rounded-lg font-semibold hover:bg-accent/90 transition-colors">
+                Get Started Today
+            </a>
+            <a href="services.php" class="border-2 border-accent text-accent px-8 py-3 rounded-lg font-semibold hover:bg-accent hover:text-white transition-colors">
+                View Our Services
+            </a>
         </div>
     </div>
 </section>
