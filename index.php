@@ -360,16 +360,11 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
                     </div>
                 </div>
                 <!-- Hero Image -->
-                <div class="order-1 md:order-2 relative animate-fade-in">
-                    <div class="relative z-10">
-                        <img src="/assets/images/hero-img.png" 
-                            alt="Advanced Teleradiology Platform - Optima Health Path" 
-                            class="rounded-2xl shadow-2xl w-full h-auto"
-                            loading="eager">
-                    </div>
-                    <!-- Floating Elements -->
-                    <div class="absolute top-0 right-0 -z-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl"></div>
-                    <div class="absolute bottom-0 left-0 -z-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
+                <div class="order-1 md:order-2 animate-fade-in">
+                    <img src="/assets/images/hero-img.png" 
+                        alt="Advanced Teleradiology Platform - Optima Health Path" 
+                        class="w-full h-auto"
+                        loading="eager">
                 </div>
             </div>
         </div>
