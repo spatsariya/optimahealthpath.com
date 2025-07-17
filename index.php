@@ -362,7 +362,7 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
                 <!-- Hero Image -->
                 <div class="order-1 md:order-2 relative animate-fade-in">
                     <div class="relative z-10">
-                        <img src="/assets/images/hero-graphic.jpeg" 
+                        <img src="/assets/images/hero-img.png" 
                             alt="Advanced Teleradiology Platform - Optima Health Path" 
                             class="rounded-2xl shadow-2xl w-full h-auto"
                             loading="eager">
