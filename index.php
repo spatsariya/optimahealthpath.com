@@ -114,26 +114,73 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
     <!-- Hero Section -->
     <section id="home" class="min-h-screen pt-24 lg:pt-32 relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-blue-50 to-gray-50 -z-10"></div>
-        <div class="container mx-auto px-6 py-16 text-center relative">
-            <div class="animate-fade-in">
-                <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold text-primary tracking-tight mb-8 leading-tight">
-                    Advanced Teleradiology
-                    <span class="block text-accent mt-2">For Modern Healthcare</span>
-                </h1>
-                <p class="text-xl text-secondary mb-12 max-w-3xl mx-auto animate-slide-up delay-200">
-                    Empowering healthcare providers across North America with 24/7 expert radiology reporting, 
-                    rapid turnaround times, and cutting-edge technology.
-                </p>
-                <div class="flex flex-col sm:flex-row justify-center gap-6 animate-slide-up delay-300">
-                    <a href="#contact" class="bg-accent text-white px-8 py-4 rounded-lg hover:bg-blue-600 transition-colors duration-300 font-medium">
-                        Request a Demo
-                    </a>
-                    <a href="#services" class="bg-white/80 backdrop-blur-sm text-primary border border-gray-200 px-8 py-4 rounded-lg hover:bg-white transition-all duration-300 font-medium">
-                        Explore Services
-                    </a>
+        <div class="container mx-auto px-6 py-16 relative">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="animate-fade-in order-2 md:order-1">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight mb-8 leading-tight">
+                        Revolutionizing
+                        <span class="block text-accent mt-2">Teleradiology Services</span>
+                        <span class="block text-primary/80 mt-2">in North America</span>
+                    </h1>
+                    <p class="text-xl text-secondary mb-12 max-w-2xl animate-slide-up delay-200">
+                        Transform your radiology workflow with our advanced PACS system. 
+                        Instant reporting, AI-assisted diagnostics, and seamless integration 
+                        for healthcare providers across US & Canada.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-6 animate-slide-up delay-300">
+                        <a href="#contact" 
+                            class="group bg-accent text-white px-8 py-4 rounded-lg hover:bg-accent/90 
+                            transition-all duration-300 font-medium flex items-center justify-center">
+                            Schedule a Demo
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                                class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" 
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                        <a href="#features" 
+                            class="bg-white/80 backdrop-blur-sm text-primary border border-gray-200 
+                            px-8 py-4 rounded-lg hover:bg-white hover:border-accent 
+                            transition-all duration-300 font-medium flex items-center justify-center group">
+                            Explore Features
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                                class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" 
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                    d="M9 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- Key Benefits -->
+                    <div class="grid grid-cols-3 gap-6 mt-16">
+                        <div class="text-center">
+                            <div class="text-accent text-2xl font-bold mb-2">24/7</div>
+                            <div class="text-secondary">Emergency Coverage</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-accent text-2xl font-bold mb-2">60min</div>
+                            <div class="text-secondary">Average TAT</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-accent text-2xl font-bold mb-2">99.9%</div>
+                            <div class="text-secondary">Accuracy Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero Image -->
+                <div class="order-1 md:order-2 relative animate-fade-in">
+                    <div class="relative z-10">
+                        <img src="/assets/images/hero-radiologist.webp" 
+                            alt="Advanced Teleradiology Platform" 
+                            class="rounded-2xl shadow-2xl"
+                            loading="eager">
+                    </div>
+                    <!-- Floating Elements -->
+                    <div class="absolute top-0 right-0 -z-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl"></div>
+                    <div class="absolute bottom-0 left-0 -z-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
                 </div>
             </div>
-            <div class="absolute -z-10 w-[600px] h-[600px] bg-blue-100/50 rounded-full blur-3xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
         </div>
     </section>
 
