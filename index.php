@@ -310,12 +310,12 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
                 <div class="animate-fade-in order-2 md:order-1">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight mb-8 leading-tight">
                         Revolutionizing
-                        <span class="block text-accent mt-2">Teleradiology Services</span>
+                        <span class="block text-accent mt-2">Teleradiology Excellence</span>
                         <span class="block text-primary/80 mt-2">across North America & Asia</span>
                     </h1>
                     <p class="text-xl text-secondary mb-12 max-w-2xl animate-slide-up delay-200">
-                        Transform your radiology workflow with our advanced PACS system. 
-                        Instant reporting, AI-assisted diagnostics, and seamless integration 
+                        Experience next-generation teleradiology with our cloud-based PACS platform. 
+                        Instant HL7 integration, real-time reporting, AI-enhanced diagnostics, and seamless EMR connectivity 
                         for healthcare providers across US, Canada & India.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-6 animate-slide-up delay-300">
@@ -350,12 +350,12 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
                             <div class="text-secondary">Emergency Coverage</div>
                         </div>
                         <div class="text-center">
-                            <div class="text-accent text-2xl font-bold mb-2">60min</div>
+                            <div class="text-accent text-2xl font-bold mb-2">15min</div>
                             <div class="text-secondary">Average TAT</div>
                         </div>
                         <div class="text-center">
                             <div class="text-accent text-2xl font-bold mb-2">99.9%</div>
-                            <div class="text-secondary">Accuracy Rate</div>
+                            <div class="text-secondary">Uptime Guarantee</div>
                         </div>
                     </div>
                 </div>
@@ -379,28 +379,28 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
     <section id="services" class="py-20 relative">
         <div class="absolute inset-0 bg-white/80 backdrop-blur-sm -z-10"></div>
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-primary tracking-tight">Our Services</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-primary tracking-tight">Comprehensive Teleradiology Solutions</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Service Card 1 -->
                 <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 hover:border-accent transition-all duration-300 group">
                     <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/10 transition-colors duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">24/7 Emergency Coverage</h3>
-                    <p class="text-secondary">Round-the-clock emergency radiology coverage with rapid turnaround times and expert analysis.</p>
+                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">24/7 Emergency On-Call</h3>
+                    <p class="text-secondary">Round-the-clock emergency radiology coverage with rapid 15-minute turnaround times for critical cases and expert subspecialty analysis.</p>
                 </div>
 
                 <!-- Service Card 2 -->
                 <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 hover:border-accent transition-all duration-300 group">
                     <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/10 transition-colors duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Subspecialty Expertise</h3>
-                    <p class="text-secondary">Access to specialized radiologists across all diagnostic disciplines, ensuring precise interpretations.</p>
+                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Multi-Modality Coverage</h3>
+                    <p class="text-secondary">Complete imaging interpretation across CT, MRI, X-Ray, Ultrasound, Nuclear Medicine, Mammography, and Bone Densitometry studies.</p>
                 </div>
 
                 <!-- Service Card 3 -->
@@ -410,8 +410,41 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Secure PACS System</h3>
-                    <p class="text-secondary">State-of-the-art PACS integration with enhanced security protocols for seamless workflow.</p>
+                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Cloud-Based PACS & HL7</h3>
+                    <p class="text-secondary">Real-time cloud PACS integration with instant HL7 connectivity, voice recognition dictation, and seamless EMR workflow integration.</p>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 hover:border-accent transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/10 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Board-Certified Subspecialists</h3>
+                    <p class="text-secondary">Access to fellowship-trained radiologists across neuroradiology, musculoskeletal, body imaging, cardiovascular, and emergency radiology.</p>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 hover:border-accent transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/10 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Real-Time Study Tracking</h3>
+                    <p class="text-secondary">Complete study monitoring from transmission to report delivery with customizable reporting templates and priority handling.</p>
+                </div>
+                
+                <!-- Service Card 6 -->
+                <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-gray-100 hover:border-accent transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/10 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-primary group-hover:text-accent transition-colors duration-300">HIPAA Compliant Security</h3>
+                    <p class="text-secondary">Enterprise-grade security with comprehensive privacy assessments, threat-risk analysis, and full regulatory compliance.</p>
                 </div>
             </div>
         </div>
@@ -422,25 +455,141 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
         <div class="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-white/50 backdrop-blur-sm -z-10"></div>
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center mb-8 text-primary tracking-tight">Why Choose Us?</h2>
+                <h2 class="text-4xl md:text-5xl font-bold text-center mb-8 text-primary tracking-tight">Why Healthcare Facilities Choose Us</h2>
                 <p class="text-secondary text-xl mb-16 text-center leading-relaxed">
-                    Combining expert radiologists, cutting-edge technology, and unwavering commitment to patient care 
-                    to deliver excellence in teleradiology services.
+                    Trusted by hospitals, clinics, and emergency departments across North America and Asia. 
+                    Our proven track record of excellence, rapid response times, and seamless integration 
+                    makes us the preferred teleradiology partner for critical care facilities.
                 </p>
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="bg-white/70 backdrop-blur-sm p-8 rounded-2xl border border-gray-100 hover:border-accent transition-all duration-300 group">
-                        <h3 class="text-xl font-semibold mb-4 text-primary group-hover:text-accent transition-colors duration-300">Our Mission</h3>
+                        <h3 class="text-xl font-semibold mb-4 text-primary group-hover:text-accent transition-colors duration-300">Partnership-Focused Approach</h3>
                         <p class="text-secondary leading-relaxed">
-                            To provide high-quality, timely, and accessible radiological expertise to healthcare 
-                            facilities across North America, enhancing patient care through advanced teleradiology solutions.
+                            We build lasting relationships with ER departments, physicians, technicians, and hospital administration. 
+                            Our collaborative approach ensures optimal patient outcomes through detailed radiology reporting and 
+                            continuous quality improvement initiatives.
                         </p>
                     </div>
                     <div class="bg-white/70 backdrop-blur-sm p-8 rounded-2xl border border-gray-100 hover:border-accent transition-all duration-300 group">
-                        <h3 class="text-xl font-semibold mb-4 text-primary group-hover:text-accent transition-colors duration-300">Our Expertise</h3>
+                        <h3 class="text-xl font-semibold mb-4 text-primary group-hover:text-accent transition-colors duration-300">Advanced Technology Integration</h3>
                         <p class="text-secondary leading-relaxed">
-                            Our team consists of board-certified radiologists with extensive experience in 
-                            various subspecialties, ensuring accurate and reliable diagnostic services.
+                            Our cloud-based PACS platform with real-time HL7 integration ensures studies are immediately available 
+                            for interpretation. Voice recognition dictation and instant EMR delivery provide unmatched efficiency 
+                            for busy healthcare environments.
                         </p>
+                    </div>
+                    <div class="bg-white/70 backdrop-blur-sm p-8 rounded-2xl border border-gray-100 hover:border-accent transition-all duration-300 group">
+                        <h3 class="text-xl font-semibold mb-4 text-primary group-hover:text-accent transition-colors duration-300">Proven Excellence Record</h3>
+                        <p class="text-secondary leading-relaxed">
+                            With industry-leading turnaround times, 99.9% uptime guarantee, and comprehensive subspecialty coverage, 
+                            we ensure your most vulnerable patients receive exceptional diagnostic care 24/7/365, no matter the time of day.
+                        </p>
+                    </div>
+                    <div class="bg-white/70 backdrop-blur-sm p-8 rounded-2xl border border-gray-100 hover:border-accent transition-all duration-300 group">
+                        <h3 class="text-xl font-semibold mb-4 text-primary group-hover:text-accent transition-colors duration-300">Quality & Compliance</h3>
+                        <p class="text-secondary leading-relaxed">
+                            Our HIPAA-compliant platform undergoes rigorous privacy and threat-risk assessments. 
+                            Board-certified radiologists provide exceptional interpretations with customizable reporting 
+                            that exceeds industry standards for accuracy and detail.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Workflow Section -->
+    <section class="py-20 relative">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 backdrop-blur-sm -z-10"></div>
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold text-center mb-8 text-primary tracking-tight">Seamless Workflow Integration</h2>
+                <p class="text-secondary text-xl mb-16 text-center leading-relaxed max-w-3xl mx-auto">
+                    Our expert IT team ensures efficient cloud-based PACS integration, enabling real-time study availability 
+                    and instant report delivery through advanced HL7 connectivity.
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-16">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4 text-primary">Study Upload</h3>
+                        <p class="text-secondary">Secure cloud transmission with real-time tracking and instant availability for interpretation</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4 text-primary">Voice Recognition</h3>
+                        <p class="text-secondary">Advanced dictation technology with customizable templates for efficient reporting</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-accent/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4 text-primary">EMR Integration</h3>
+                        <p class="text-secondary">Instant HL7 report delivery directly into your EMR system for seamless workflow</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 border border-gray-100">
+                    <h3 class="text-2xl font-semibold mb-6 text-primary text-center">Complete Study Lifecycle Management</h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-lg font-semibold mb-4 text-primary">Real-Time Monitoring</h4>
+                            <ul class="space-y-3 text-secondary">
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-accent mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Study transmission tracking from upload to delivery
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-accent mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Priority handling for emergency and stat cases
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-accent mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Automated notifications and status updates
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold mb-4 text-primary">Quality Assurance</h4>
+                            <ul class="space-y-3 text-secondary">
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-accent mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Comprehensive privacy and threat-risk assessments
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-accent mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Full HIPAA compliance with audit trails
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-accent mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Customizable reporting to meet facility needs
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -545,7 +694,8 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
                 <div>
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Optima Health Path</h3>
                     <p class="text-white/70 leading-relaxed">
-                        Leading teleradiology services provider across North America and Asia, delivering excellence in diagnostic care to US, Canada, and India.
+                        Premier teleradiology services provider with advanced cloud-based PACS integration and real-time HL7 connectivity. 
+                        Serving healthcare facilities across North America and Asia with 24/7 emergency coverage and subspecialty expertise.
                     </p>
                 </div>
                 <div>
