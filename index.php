@@ -10,6 +10,16 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
     <title><?php echo $pageTitle; ?></title>
     <meta name="description" content="<?php echo $pageDescription; ?>">
     
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Open Graph Image -->
+    <meta property="og:image" content="assets/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
     <!-- SEO Meta Tags -->
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="teleradiology, radiology services, medical imaging, diagnostic services, remote radiology, US healthcare, Canadian healthcare">
@@ -72,8 +82,8 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
     <header class="fixed w-full z-50">
         <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border-b border-gray-200">
             <div class="flex items-center justify-between">
-                <div class="flex items-center space-x-2">
-                    <img src="assets/images/logo.png" alt="Optima Health Path Logo" class="h-12">
+                <div class="flex items-center">
+                    <img src="assets/images/logo.png" alt="Optima Health Path Logo" class="h-16 md:h-20" draggable="false">
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
