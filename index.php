@@ -27,9 +27,10 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
             theme: {
                 extend: {
                     colors: {
-                        primary: '#2D3436',
+                        primary: '#1B2B65', // Dark blue from logo
                         secondary: '#636E72',
-                        accent: '#0984E3',
+                        accent: '#40C9B5', // Teal from logo
+                        brain: '#0984E3', // Brain blue color
                     },
                     fontFamily: {
                         sans: ['Inter var', 'sans-serif'],
@@ -71,8 +72,8 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
     <header class="fixed w-full z-50">
         <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border-b border-gray-200">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-primary tracking-tight">
-                    Optima Health Path
+                <div class="flex items-center space-x-2">
+                    <img src="assets/images/logo.png" alt="Optima Health Path Logo" class="h-12">
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
@@ -80,7 +81,7 @@ $pageDescription = "Professional teleradiology services across US & Canada. 24/7
                     <a href="#about" class="text-primary hover:text-accent transition-colors duration-300 font-medium">About</a>
                     <a href="#contact" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Contact</a>
                 </div>
-                <button class="bg-accent text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300 font-medium">
+                <button class="bg-accent text-white px-6 py-2 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20">
                     Get Started
                 </button>
             </div>
