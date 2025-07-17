@@ -96,6 +96,40 @@ optimahealthpath.com/
 - **Fast Loading** - Optimized for quick page loads
 - **Accessibility** - WCAG compliant design elements
 
+### Color Palette
+
+The website uses a carefully selected color palette that conveys trust, professionalism, and medical expertise:
+
+#### Primary Colors
+- **Primary**: `#1B2B65` - Dark blue (main text, headings, and branding)
+- **Secondary**: `#636E72` - Medium gray (secondary text and descriptions)
+- **Accent**: `#40C9B5` - Teal/turquoise (highlights, buttons, and interactive elements)
+- **Brain**: `#0984E3` - Bright blue (specialized accent color)
+
+#### Background Colors
+- **Body Background**: `bg-gray-50` - Light gray background
+- **Hero Section**: Gradient from `blue-50` to `gray-50`
+- **Section Backgrounds**: Various combinations of white with opacity (`bg-white/80`, `bg-white/70`)
+
+#### Interactive Elements
+- **Primary Buttons**: `bg-accent` (#40C9B5) with white text
+- **Secondary Buttons**: White/transparent backgrounds with primary text
+- **Links**: Primary color with accent hover states
+- **Borders**: `border-gray-200` for subtle borders, `border-accent` for active states
+
+#### Semantic Colors
+- **Success**: `text-green-600` (success messages)
+- **Error**: `text-red-500` (error messages)
+- **Theme Color**: `#1B2B65` (browser UI theming)
+
+#### Opacity Variations
+The design utilizes various opacity levels for layered effects:
+- `text-white/70`, `text-white/90` (white text with opacity)
+- `bg-white/70`, `bg-white/80` (white backgrounds with opacity)
+- `bg-accent/10`, `bg-primary/10` (colored backgrounds with low opacity)
+
+This creates a professional, medical-focused color scheme with the teal accent providing a modern, trustworthy feel appropriate for healthcare technology.
+
 ## 📊 Competitive Advantages
 
 Based on comprehensive market analysis of leading teleradiology providers:
