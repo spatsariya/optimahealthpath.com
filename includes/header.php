@@ -234,11 +234,12 @@
 </head>
 <body class="bg-gray-50">
     <!-- Header -->
-    <header class="fixed w-full z-50">
-        <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border-b border-gray-200">
+    <header class="fixed w-full z-50 px-8" style="top: 32px;">
+        <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border border-gray-200 rounded-3xl">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <a href="/" class="flex items-center">
+                    <div class="flex items-center">
+                        <!-- Logo with fallback text -->
                         <img 
                             src="/assets/images/logo.png" 
                             alt="Optima Health Path Logo" 
@@ -250,7 +251,7 @@
                             <span class="text-accent text-2xl font-bold">Optima</span>
                             <span class="text-primary text-2xl font-bold">Health Path</span>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="/" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
