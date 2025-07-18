@@ -238,7 +238,7 @@
         <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border border-gray-200 rounded-3xl">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <div class="flex items-center">
+                    <a href="/" class="flex items-center">
                         <!-- Logo with fallback text -->
                         <img 
                             src="/assets/images/logo.png" 
@@ -251,7 +251,7 @@
                             <span class="text-accent text-2xl font-bold">Optima</span>
                             <span class="text-primary text-2xl font-bold">Health Path</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 
                 <!-- Desktop Navigation -->
@@ -291,7 +291,5 @@
                     </a>
                 </div>
             </div>
-        </nav>
-    </header>
         </nav>
     </header>

@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="pt-32 pb-16 relative bg-gradient-to-br from-blue-50 to-gray-50">
+<section class="pt-40 pb-16 relative bg-gradient-to-br from-blue-50 to-gray-50">
     <div class="container mx-auto px-6">
         <h1 class="text-4xl md:text-5xl font-bold text-primary mb-8 tracking-tight">Get in Touch</h1>
         <p class="text-xl text-secondary mb-8 max-w-3xl">
