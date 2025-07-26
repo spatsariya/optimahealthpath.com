@@ -16,6 +16,7 @@
                         <li><a href="/services.php" class="text-white/70 hover:text-accent transition-colors duration-300">Services</a></li>
                         <li><a href="/for-facilities.php" class="text-white/70 hover:text-accent transition-colors duration-300">For Facilities</a></li>
                         <li><a href="/about-us.php" class="text-white/70 hover:text-accent transition-colors duration-300">About</a></li>
+                        <li><a href="/partner.php" class="text-white/70 hover:text-accent transition-colors duration-300">Partner</a></li>
                         <li><a href="/contact.php" class="text-white/70 hover:text-accent transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>

@@ -277,12 +277,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a href="/services.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Services</a>
                     <a href="/for-facilities.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">For Facilities</a>
                     <a href="/about-us.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">About</a>
+                    <a href="/partner.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Partner</a>
                     <a href="/contact.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Contact</a>
                 </div>
                 
                 <!-- Desktop CTA Button -->
                 <div class="hidden md:block">
-                    <a href="/contact.php" class="bg-accent text-white px-6 py-2 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20">
+                    <a href="/contact.php" class="bg-accent text-white px-5 py-2.5 rounded-xl hover:brightness-110 transition-all duration-300 font-semibold shadow-lg shadow-accent/20 text-lg tracking-wide">
                         Get Started
                     </a>
                 </div>
@@ -302,6 +303,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a href="/services.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Services</a>
                     <a href="/for-facilities.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">For Facilities</a>
                     <a href="/about-us.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">About</a>
+                    <a href="/partner.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Partner</a>
                     <a href="/contact.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Contact</a>
                     <a href="/contact.php" class="bg-accent text-white px-6 py-3 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20 text-center mt-4">
                         Get Started
