@@ -587,13 +587,14 @@ include __DIR__ . '/includes/header.php';
     </script>
     
     <!-- Footer -->
-    <footer class="bg-primary text-white py-16 relative">
+     <?php include __DIR__ . '/includes/footer.php'; ?>
+    <!-- <footer class="bg-primary text-white py-16 relative">
         <div class="absolute inset-0 bg-gradient-to-br from-primary to-primary/90 backdrop-blur-sm"></div>
-    <?php include __DIR__ . '/includes/footer.php'; ?>
+    
                 <p>&copy; <?php echo date('Y'); ?> Optima Health Path. All rights reserved.</p>
             </div>
         </div>
-    </footer>
+    </footer> -->
     
     <!-- Custom Scripts -->
     <script>
