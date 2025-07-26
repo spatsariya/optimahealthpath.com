@@ -1,3 +1,59 @@
+<!-- Mobile Menu Toggle Script (guaranteed to run on all pages) -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var menuBtn = document.getElementById('mobile-menu-button');
+    var mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        mobileMenu.classList.toggle('hidden');
+      });
+      document.addEventListener('click', function(event) {
+        if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
+          mobileMenu.classList.add('hidden');
+        }
+      });
+    }
+  });
+</script>
+<!-- Mobile Menu Toggle Script (ensures mobile nav works everywhere) -->
+<script>
+  (function() {
+    var menuBtn = document.getElementById('mobile-menu-button');
+    var mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        mobileMenu.classList.toggle('hidden');
+      });
+      document.addEventListener('click', function(event) {
+        if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
+          mobileMenu.classList.add('hidden');
+        }
+      });
+    }
+  })();
+</script>
+</div>
+
+<!-- Mobile Menu Toggle Script (ensures mobile nav works everywhere) -->
+<script>
+  (function() {
+    var menuBtn = document.getElementById('mobile-menu-button');
+    var mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        mobileMenu.classList.toggle('hidden');
+      });
+      document.addEventListener('click', function(event) {
+        if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
+          mobileMenu.classList.add('hidden');
+        }
+      });
+    }
+  })();
+</script>
     <!-- Footer -->
     <footer class="bg-primary text-white py-16 relative">
         <div class="absolute inset-0 bg-gradient-to-br from-primary to-primary/90 backdrop-blur-sm"></div>

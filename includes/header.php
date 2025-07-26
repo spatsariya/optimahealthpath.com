@@ -310,12 +310,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a href="/services.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Services</a>
                     <a href="/for-facilities.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">For Facilities</a>
                     <a href="/about-us.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">About</a>
-                    <a href="/partner.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Partner</a>
                     <a href="/contact.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-accent/5">Contact</a>
-                    <a href="/contact.php" class="bg-accent text-white px-6 py-3 rounded-lg hover:brightness-110 transition-all duration-300 font-medium shadow-lg shadow-accent/20 text-center mt-4">
-                        Get Started
-                    </a>
+                    <!-- Mobile CTA Buttons -->
+                    <div class="flex flex-col gap-3 mt-4">
+                        <a href="/partner.php" class="group bg-accent text-white px-6 py-3 rounded-lg hover:bg-accent/90 transition-all duration-300 font-medium flex items-center justify-center">
+                            Partner With Us
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                        <a href="/contact.php" class="bg-white/80 backdrop-blur-sm text-primary border border-gray-200 px-6 py-3 rounded-lg hover:bg-white hover:border-accent transition-all duration-300 font-medium flex items-center justify-center group">
+                            Contact Us
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
+        <!-- Mobile Menu Toggle Script (guaranteed to run on all pages) -->
     </header>
+
