@@ -86,16 +86,24 @@ include __DIR__ . '/includes/header.php';
                 <!-- Social Media -->
                 <div class="mt-12">
                     <h3 class="text-lg font-semibold text-primary mb-4">Connect With Us</h3>
+                    <!-- Font Awesome CDN -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <div class="flex space-x-4">
-                        <a href="#" class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-colors duration-300">
-                            <svg class="h-6 w-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                            </svg>
+                        <a href="https://www.facebook.com/Optimahealthpath/" target="_blank" rel="noopener" class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-colors duration-300 text-accent">
+                            <span class="sr-only">Facebook</span>
+                            <i class="fab fa-facebook-f fa-lg"></i>
                         </a>
-                        <a href="#" class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-colors duration-300">
-                            <svg class="h-6 w-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
-                            </svg>
+                        <a href="http://instagram.com/optimahealthpath" target="_blank" rel="noopener" class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-colors duration-300 text-accent">
+                            <span class="sr-only">Instagram</span>
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/optimahealthpath" target="_blank" rel="noopener" class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-colors duration-300 text-accent">
+                            <span class="sr-only">LinkedIn</span>
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=16473339098&text=Hi%20Team%20Optima%20Health%20Path%2C%0A%0AI%20hope%20you%27re%20doing%20well.%20I%E2%80%99d%20like%20to%20connect%20briefly%20to%20discuss%20a%20potential%20business%20opportunity.%0A%0AIs%20someone%20available%20for%20a%20quick%20chat%20this%20week%3F" target="_blank" rel="noopener" class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center hover:bg-accent/20 transition-colors duration-300 text-accent">
+                            <span class="sr-only">WhatsApp</span>
+                            <i class="fab fa-whatsapp fa-lg"></i>
                         </a>
                     </div>
                 </div>

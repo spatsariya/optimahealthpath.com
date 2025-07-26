@@ -31,18 +31,9 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Contact</h3>
                     <ul class="space-y-3">
-                        <li class="text-white/70 flex items-center">
-                            <i class="fas fa-envelope h-5 w-5 mr-2 text-accent"></i>
-                            contact@optimahealthpath.com
-                        </li>
-                        <li class="text-white/70 flex items-center">
-                            <i class="fas fa-phone h-5 w-5 mr-2 text-accent"></i>
-                            +1 (647) 275-5418
-                        </li>
-                        <li class="text-white/70 flex items-center">
-                            <i class="fas fa-location-dot h-5 w-5 mr-2 text-accent"></i>
-                            Toronto, ON, Canada
-                        </li>
+                        <li><span class="text-white/70">Toronto, ON, Canada</span></li>
+                        <li><a href="tel:+16472755418" class="text-white/70 hover:text-accent transition-colors duration-300">+1 (647) 275-5418</a></li>
+                        <li><a href="mailto:contact@optimahealthpath.com" class="text-white/70 hover:text-accent transition-colors duration-300">contact@optimahealthpath.com</a></li>
                     </ul>
                     <div class="mt-6">
                         <h4 class="text-lg font-medium mb-3 text-white/90">Follow Us</h4>
