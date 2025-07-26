@@ -1,59 +1,33 @@
-<!-- Mobile Menu Toggle Script (guaranteed to run on all pages) -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var menuBtn = document.getElementById('mobile-menu-button');
-    var mobileMenu = document.getElementById('mobile-menu');
-    if (menuBtn && mobileMenu) {
-      menuBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        mobileMenu.classList.toggle('hidden');
-      });
-      document.addEventListener('click', function(event) {
-        if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
-          mobileMenu.classList.add('hidden');
-        }
-      });
-    }
-  });
-</script>
-<!-- Mobile Menu Toggle Script (ensures mobile nav works everywhere) -->
-<script>
-  (function() {
-    var menuBtn = document.getElementById('mobile-menu-button');
-    var mobileMenu = document.getElementById('mobile-menu');
-    if (menuBtn && mobileMenu) {
-      menuBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        mobileMenu.classList.toggle('hidden');
-      });
-      document.addEventListener('click', function(event) {
-        if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
-          mobileMenu.classList.add('hidden');
-        }
-      });
-    }
-  })();
-</script>
-</div>
 
-<!-- Mobile Menu Toggle Script (ensures mobile nav works everywhere) -->
-<script>
-  (function() {
-    var menuBtn = document.getElementById('mobile-menu-button');
-    var mobileMenu = document.getElementById('mobile-menu');
-    if (menuBtn && mobileMenu) {
-      menuBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        mobileMenu.classList.toggle('hidden');
-      });
-      document.addEventListener('click', function(event) {
-        if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
-          mobileMenu.classList.add('hidden');
+    <!-- Scripts -->
+    <script>
+      // Mobile menu toggle (single, clean version)
+      document.addEventListener('DOMContentLoaded', function() {
+        var menuBtn = document.getElementById('mobile-menu-button');
+        var mobileMenu = document.getElementById('mobile-menu');
+        if (menuBtn && mobileMenu) {
+          menuBtn.addEventListener('click', function(e) {
+            e.stopPropagation(); // Prevent menu from closing immediately
+            mobileMenu.classList.toggle('hidden');
+          });
+          document.addEventListener('click', function(event) {
+            if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
+              mobileMenu.classList.add('hidden');
+            }
+          });
         }
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            var target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
       });
-    }
-  })();
-</script>
+    </script>
     <!-- Footer -->
     <footer class="bg-primary text-white py-16 relative">
         <div class="absolute inset-0 bg-gradient-to-br from-primary to-primary/90 backdrop-blur-sm"></div>
@@ -122,42 +96,6 @@
         </div>
     </footer>
     
-    <!-- Scripts -->
-    <script>
-        // Wait for DOM to be fully loaded
-        document.addEventListener('DOMContentLoaded', function() {
-            // Mobile menu toggle
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenu = document.getElementById('mobile-menu');
-            
-            if (mobileMenuButton && mobileMenu) {
-                mobileMenuButton.addEventListener('click', function() {
-                    mobileMenu.classList.toggle('hidden');
-                });
-            }
-            
-            // Close mobile menu when clicking outside
-            document.addEventListener('click', function(event) {
-                if (mobileMenu && mobileMenuButton) {
-                    if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
-                        mobileMenu.classList.add('hidden');
-                    }
-                }
-            });
-            
-            // Smooth scroll for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-        });
-    </script>
+
 </body>
 </html>
