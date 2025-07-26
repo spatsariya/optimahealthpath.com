@@ -694,76 +694,7 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
     <!-- Footer -->
     <footer class="bg-primary text-white py-16 relative">
         <div class="absolute inset-0 bg-gradient-to-br from-primary to-primary/90 backdrop-blur-sm"></div>
-        <div class="container mx-auto px-6 relative">
-            <div class="grid md:grid-cols-4 gap-12">
-                <div>
-                    <h3 class="text-xl font-semibold mb-4 text-white/90">Optima Health Path</h3>
-                    <p class="text-white/70 leading-relaxed">
-                        Premier teleradiology services provider with advanced cloud-based PACS integration and real-time HL7 connectivity. 
-                        Serving healthcare facilities across North America and Asia with 24/7 emergency coverage and subspecialty expertise.
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-4 text-white/90">Quick Links</h3>
-                    <ul class="space-y-3">
-                        <li><a href="/" class="text-white/70 hover:text-accent transition-colors duration-300">Home</a></li>
-                        <li><a href="/services.php" class="text-white/70 hover:text-accent transition-colors duration-300">Services</a></li>
-                        <li><a href="/for-facilities.php" class="text-white/70 hover:text-accent transition-colors duration-300">For Facilities</a></li>
-                        <li><a href="/about-us.php" class="text-white/70 hover:text-accent transition-colors duration-300">About</a></li>
-                        <li><a href="/contact.php" class="text-white/70 hover:text-accent transition-colors duration-300">Contact</a></li>
-                        <li><a href="/privacy-policy.php" class="text-white/70 hover:text-accent transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="/terms-of-service.php" class="text-white/70 hover:text-accent transition-colors duration-300">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-4 text-white/90">Contact</h3>
-                    <ul class="space-y-3">
-                        <li class="text-white/70 flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                            </svg>
-                            contact@optimahealthpath.com
-                        </li>
-                        <li class="text-white/70 flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                            +1 (647) 275-5418
-                        </li>
-                        <li class="text-white/70 flex items-start">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 mt-1 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                            </svg>
-                            Totonto, ON, Canada
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-4 text-white/90">Connect With Us</h3>
-                    <div class="flex space-x-4">
-                        <!-- Font Awesome CDN -->
-                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-                        <a href="https://www.facebook.com/Optimahealthpath/" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
-                            <span class="sr-only">Facebook</span>
-                            <i class="fab fa-facebook-f fa-lg"></i>
-                        </a>
-                        <a href="http://instagram.com/optimahealthpath" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
-                            <span class="sr-only">Instagram</span>
-                            <i class="fab fa-instagram fa-lg"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/company/optimahealthpath" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
-                            <span class="sr-only">LinkedIn</span>
-                            <i class="fab fa-linkedin-in fa-lg"></i>
-                        </a>
-                        <a href="https://api.whatsapp.com/send?phone=16473339098&text=Hi%20Team%20Optima%20Health%20Path%2C%0A%0AI%20hope%20you%27re%20doing%20well.%20I%E2%80%99d%20like%20to%20connect%20briefly%20to%20discuss%20a%20potential%20business%20opportunity.%0A%0AIs%20someone%20available%20for%20a%20quick%20chat%20this%20week%3F" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
-                            <span class="sr-only">WhatsApp</span>
-                            <i class="fab fa-whatsapp fa-lg"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="border-t border-white/10 mt-12 pt-8 text-center text-white/70">
+    <?php include __DIR__ . '/includes/footer.php'; ?>
                 <p>&copy; <?php echo date('Y'); ?> Optima Health Path. All rights reserved.</p>
             </div>
         </div>
