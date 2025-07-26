@@ -64,7 +64,7 @@ include 'includes/header.php';
                         </div>
                         <div>
                             <h3 class="text-lg font-semibold text-primary mb-1">Phone</h3>
-                            <p class="text-secondary">Coming Soon</p>
+                            <p class="text-secondary">+1 (647) 275-5418</p>
                             <p class="text-secondary mt-1">24/7 support for existing clients</p>
                         </div>
                     </div>

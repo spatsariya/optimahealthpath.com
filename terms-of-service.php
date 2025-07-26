@@ -104,7 +104,7 @@ include 'includes/header.php';
                 </p>
                 <div class="bg-gray-50 p-6 rounded-xl mb-8">
                     <p class="text-secondary">Email: legal@optimahealthpath.com</p>
-                    <p class="text-secondary">Phone: (Coming Soon)</p>
+                    <p class="text-secondary">Phone: +1 (647) 275-5418</p>
                 </div>
 
                 <h2 class="text-2xl font-bold text-primary mb-6">12. Changes to Terms</h2>
