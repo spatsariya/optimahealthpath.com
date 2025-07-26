@@ -41,12 +41,13 @@
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Quick Links</h3>
-                    <ul class="space-y-3">
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6">
                         <li><a href="/" class="text-white/70 hover:text-accent transition-colors duration-300">Home</a></li>
                         <li><a href="/services.php" class="text-white/70 hover:text-accent transition-colors duration-300">Services</a></li>
                         <li><a href="/for-facilities.php" class="text-white/70 hover:text-accent transition-colors duration-300">For Facilities</a></li>
                         <li><a href="/about-us.php" class="text-white/70 hover:text-accent transition-colors duration-300">About</a></li>
                         <li><a href="/partner.php" class="text-white/70 hover:text-accent transition-colors duration-300">Partner</a></li>
+                        <li><a href="/careers.php" class="text-white/70 hover:text-accent transition-colors duration-300">Careers</a></li>
                         <li><a href="/contact.php" class="text-white/70 hover:text-accent transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
@@ -61,9 +62,24 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Contact</h3>
                     <ul class="space-y-3">
-                        <li><span class="text-white/70">Toronto, ON, Canada</span></li>
-                        <li><a href="tel:+16472755418" class="text-white/70 hover:text-accent transition-colors duration-300">+1 (647) 275-5418</a></li>
-                        <li><a href="mailto:contact@optimahealthpath.com" class="text-white/70 hover:text-accent transition-colors duration-300">contact@optimahealthpath.com</a></li>
+                        <li>
+                            <span class="text-white/70 flex items-center gap-2">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Toronto, ON, Canada
+                            </span>
+                        </li>
+                        <li>
+                            <a href="tel:+16472755418" class="text-white/70 hover:text-accent transition-colors duration-300 flex items-center gap-2">
+                                <i class="fas fa-phone-alt"></i>
+                                +1 (647) 275-5418
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:contact@optimahealthpath.com" class="text-white/70 hover:text-accent transition-colors duration-300 flex items-center gap-2">
+                                <i class="fas fa-envelope"></i>
+                                contact@optimahealthpath.com
+                            </a>
+                        </li>
                     </ul>
                     <div class="mt-6">
                         <h4 class="text-lg font-medium mb-3 text-white/90">Follow Us</h4>
