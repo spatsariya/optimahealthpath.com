@@ -31,32 +31,38 @@
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Contact</h3>
                     <ul class="space-y-3">
                         <li class="text-white/70 flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                            </svg>
+                            <i class="fas fa-envelope h-5 w-5 mr-2 text-accent"></i>
                             contact@optimahealthpath.com
                         </li>
                         <li class="text-white/70 flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
+                            <i class="fas fa-phone h-5 w-5 mr-2 text-accent"></i>
                             +1 (647) 275-5418
+                        </li>
+                        <li class="text-white/70 flex items-center">
+                            <i class="fas fa-location-dot h-5 w-5 mr-2 text-accent"></i>
+                            Toronto, ON, Canada
                         </li>
                     </ul>
                     <div class="mt-6">
                         <h4 class="text-lg font-medium mb-3 text-white/90">Follow Us</h4>
+                        <!-- Font Awesome CDN -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
                         <div class="flex space-x-4">
-                            <a href="#" class="text-white/70 hover:text-accent transition-colors duration-300">
-                                <span class="sr-only">LinkedIn</span>
-                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                                </svg>
+                            <a href="https://www.facebook.com/Optimahealthpath/" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300">
+                                <span class="sr-only">Facebook</span>
+                                <i class="fab fa-facebook-f fa-lg"></i>
                             </a>
-                            <a href="#" class="text-white/70 hover:text-accent transition-colors duration-300">
-                                <span class="sr-only">Twitter</span>
-                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
-                                </svg>
+                            <a href="http://instagram.com/optimahealthpath" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300">
+                                <span class="sr-only">Instagram</span>
+                                <i class="fab fa-instagram fa-lg"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/optimahealthpath" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300">
+                                <span class="sr-only">LinkedIn</span>
+                                <i class="fab fa-linkedin-in fa-lg"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=16473339098&text=Hi%20Team%20Optima%20Health%20Path%2C%0A%0AI%20hope%20you%27re%20doing%20well.%20I%E2%80%99d%20like%20to%20connect%20briefly%20to%20discuss%20a%20potential%20business%20opportunity.%0A%0AIs%20someone%20available%20for%20a%20quick%20chat%20this%20week%3F" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300">
+                                <span class="sr-only">WhatsApp</span>
+                                <i class="fab fa-whatsapp fa-lg"></i>
                             </a>
                         </div>
                     </div>
