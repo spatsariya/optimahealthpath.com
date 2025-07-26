@@ -202,8 +202,77 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
     }
     </script>
     
-    <!-- Footer Include -->
-    <?php include __DIR__ . '/includes/footer.php'; ?>
+    <!-- Tailwind CSS and Inter font -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1B2B65', // Dark blue from logo
+                        secondary: '#636E72',
+                        accent: '#40C9B5', // Teal from logo
+                        brain: '#0984E3', // Brain blue color
+                    },
+                    fontFamily: {
+                        sans: ['Inter var', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-out',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        }
+                    },
+                    backdropFilter: {
+                        'none': 'none',
+                        'blur': 'blur(20px)',
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style type="text/tailwind">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="fixed w-full z-50 px-8" style="top: 32px;">
+        <nav class="container mx-auto px-6 py-4 backdrop-blur-lg bg-white/70 border border-gray-200 rounded-3xl">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center">
+                        <!-- Logo with fallback text -->
+                        <img 
+                            src="/assets/images/logo.png" 
+                            alt="Optima Health Path Logo" 
+                            class="h-16 md:h-20" 
+                            draggable="false"
+                            onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+                        >
+                        <div class="hidden">
+                            <span class="text-accent text-2xl font-bold">Optima</span>
+                            <span class="text-primary text-2xl font-bold">Health Path</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
                 <div class="hidden md:flex space-x-8">
                     <a href="/" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Home</a>
                     <a href="/services.php" class="text-primary hover:text-accent transition-colors duration-300 font-medium">Services</a>
