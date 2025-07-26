@@ -742,17 +742,23 @@ $pageDescription = "Professional teleradiology services across US, Canada & Indi
                 <div>
                     <h3 class="text-xl font-semibold mb-4 text-white/90">Connect With Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-white/70 hover:text-accent transition-colors duration-300 group">
+                        <!-- Font Awesome CDN -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                        <a href="https://www.facebook.com/Optimahealthpath/" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
                             <span class="sr-only">Facebook</span>
-                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
-                            </svg>
+                            <i class="fab fa-facebook-f fa-lg"></i>
                         </a>
-                        <a href="#" class="text-white/70 hover:text-accent transition-colors duration-300 group">
+                        <a href="http://instagram.com/optimahealthpath" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
+                            <span class="sr-only">Instagram</span>
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/optimahealthpath" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
                             <span class="sr-only">LinkedIn</span>
-                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                            </svg>
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=16473339098&text=Hi%20Team%20Optima%20Health%20Path%2C%0A%0AI%20hope%20you%27re%20doing%20well.%20I%E2%80%99d%20like%20to%20connect%20briefly%20to%20discuss%20a%20potential%20business%20opportunity.%0A%0AIs%20someone%20available%20for%20a%20quick%20chat%20this%20week%3F" target="_blank" rel="noopener" class="text-white/70 hover:text-accent transition-colors duration-300 group">
+                            <span class="sr-only">WhatsApp</span>
+                            <i class="fab fa-whatsapp fa-lg"></i>
                         </a>
                     </div>
                 </div>
