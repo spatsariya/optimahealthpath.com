@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Contact OptimaHealthPath - Radiologist-Owned Teleradiology Solutions | Get Started Today";
 $pageDescription = "Connect with OptimaHealthPath for radiologist-owned teleradiology services. 24/7 emergency coverage, flexible solutions, and long-term partnerships for healthcare facilities across North America and Asia.";
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
@@ -309,4 +309,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

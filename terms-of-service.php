@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Terms of Service | OptimaHealthPath - Teleradiology Terms US, Canada & India";
 $pageDescription = "OptimaHealthPath terms of service for teleradiology services across North America and Asia. Legal terms, service agreements, and conditions for healthcare providers in US, Canada, and India using our diagnostic imaging solutions.";
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
@@ -117,4 +117,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

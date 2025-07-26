@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Comprehensive Teleradiology Services | OptimaHealthPath - US, Canada & India Expert Coverage";
 $pageDescription = "Professional teleradiology services across North America and Asia. 24/7 emergency coverage, final reads, preliminary reports, subspecialty expertise, vacation coverage, and seamless PACS integration for healthcare facilities in US, Canada, and India.";
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
@@ -468,4 +468,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

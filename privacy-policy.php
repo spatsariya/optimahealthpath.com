@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Privacy Policy | OptimaHealthPath - HIPAA Compliant Teleradiology US, Canada & India";
 $pageDescription = "OptimaHealthPath privacy policy for teleradiology services across North America and Asia. HIPAA compliance, data protection, and medical information security for healthcare providers in US, Canada, and India.";
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
@@ -117,4 +117,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

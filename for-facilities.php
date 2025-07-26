@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "For Healthcare Facilities - OptimaHealthPath Teleradiology Solutions | Long-Term Partnerships";
 $pageDescription = "Healthcare facilities trust OptimaHealthPath for radiologist-owned teleradiology services. 24/7 emergency coverage, 15-minute TAT, board-certified radiologists, and flexible coverage options for hospitals and imaging centers.";
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
@@ -312,4 +312,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>
